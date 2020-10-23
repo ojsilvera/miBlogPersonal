@@ -1,58 +1,103 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
 body{
-    width: 100%;
+    background-image: none;
 }
 
-header{
-    width: 100%;
-    text-align: end;
+a{
+    color: black;
 }
 
-header .navSocialMedia{
-    width: 100%;
-    background-color: #49ceab;
+.contendBlog{
+    width: 100vw;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
 }
 
-.navSocialMedia .iconSocialMedia .logoSocialMedia{
-    margin: 10px;
+.contendBlog .contendTop{
+    background-color: #e5e8ec;
 }
 
-.navSocialMedia .iconSocialMedia .logoSocialMedia a{
-    text-decoration: none;
-}
-
-.navSocialMedia .iconSocialMedia .logoSocialMedia a img{
-    width: 48px;
-    height: 48px;
-    filter: invert(100%);
-}
-
-header .navSocialMedia .iconSocialMedia{
-    width: 90%;
+.contendBlog .contendTop .postionContendTop{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 80vw;
     margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
 }
 
-nav{
-    width: 100%;
+.contendBlog .contendTop .postionContendTop .contendTopTitleImage{
+    grid-column:1 / span 2;
+    display: grid;
+    grid-template-rows: repeat(2,auto);
 }
 
-nav ul{
-    text-decoration: none;
+.contendBlog .contendTop .postionContendTop .contendTopTitleImage h1{
+    grid-row: 1;
+    padding: 20px 0 20px 0px;
+}
+
+.contendBlog .contendTop .postionContendTop .contendTopTitleImage img{
+    grid-row: 2;
     width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    padding: 0px 0px 10px 0px;
 }
 
-nav ul li{
-    list-style: none;
-    display: inline;
+.contendBlog .contendTop .postionContendTop .contendTopDescription{
+    grid-column: 3 / span 1;
+}
+
+.contendBlog .contendTop .postionContendTop .contendTopDescription h1{
+    font-weight: bold;
+}
+
+.contendBlog .contendTop .postionContendTop .contendTopDescription p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.contendBlog .contendTop .postionContendTop .contendTopDescription a{
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
     
 }
 
+/* ------------------------------------------------------------------------posts */
+
+.contendBlog .posts {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contendBlog .posts h1{
+    margin-bottom: 50px;
+}
+
+
+.contendBlog .posts hr{
+    margin-bottom: 50px;
+}
+
+.contendBlog .posts .articles {
+    margin: 10px 0px 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+.contendBlog .posts article {
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: left;
+}
+
+.contendBlog .posts article h1{
+    margin: 0pc;
+}
+
+.contendBlog .posts .articles article a{
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+}

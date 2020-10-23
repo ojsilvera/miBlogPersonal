@@ -4,55 +4,5 @@
 }
 
 body{
-    width: 100%;
+    background-image: none;
 }
-
-header{
-    width: 100%;
-    text-align: end;
-}
-
-header .navSocialMedia{
-    width: 100%;
-    background-color: #49ceab;
-}
-
-.navSocialMedia .iconSocialMedia .logoSocialMedia{
-    margin: 10px;
-}
-
-.navSocialMedia .iconSocialMedia .logoSocialMedia a{
-    text-decoration: none;
-}
-
-.navSocialMedia .iconSocialMedia .logoSocialMedia a img{
-    width: 48px;
-    height: 48px;
-    filter: invert(100%);
-}
-
-header .navSocialMedia .iconSocialMedia{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
-}
-
-nav{
-    width: 100%;
-}
-
-nav ul{
-    text-decoration: none;
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav ul li{
-    list-style: none;
-    display: inline;
-    
-}
-
