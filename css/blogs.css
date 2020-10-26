@@ -89,13 +89,9 @@ a{
 .contendBlog .posts .articles{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
+    gap: 20px;
     justify-items: center;
 }
- 
-.contendBlog .posts .articles .postUno{
-   width: 80%;
-} 
 
 .contendBlog .posts .articles .postUno img{
     width: 100%;
